@@ -14,3 +14,16 @@ const ground = (element) => back.style.backgroundColor= "#JavaScriptJavaScript";
 const highlight = document.querySelector("#JavaScriptJavaScript");
 highlight.addEventListener("click",ground);
 
+const image = () => {
+    const image = document.getElementById("imge");
+    image.style.display = "none";
+  };
+  const hideImageButton = document.getElementById("imge");
+  hideImageButton.addEventListener("click", HideImage);
+
+  
+const paragraphs = document.querySelectorAll("p");
+paragraphs.forEach((element) => {
+  element.addEventListener();
+  element.addEventListener();
+});
