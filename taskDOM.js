@@ -22,8 +22,12 @@ const image = () => {
   hideImageButton.addEventListener("click", HideImage);
 
   
-const paragraphs = document.querySelectorAll("p");
-paragraphs.forEach((element) => {
-  element.addEventListener();
-  element.addEventListener();
-});
+  const originalBackground = () => {
+    paragraphs.forEach((element) => {
+      element.style.backgroundColor = "red";
+    });
+  };
+  paragraphs.forEach((element) => {
+    element.addEventListener("mouseover", changeBackground);
+    element.addEventListener("mouseleave", originalBackground);
+  });
