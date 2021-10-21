@@ -6,27 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">
 </head>
 
-    <body onload="load()">
+<body onload="load()">
     <div id="par">
-        <h1 id="Hello">Hello</h1>
+        <h1 class="text-primary" id="Hello">Hello</h1>
         <h1 id="Hi">Hi</h1>
     </div>
 
     <div>
-        <P id="JavaScript">JavaScript</P>
-        <P id="JavaScriptJavaScript">JavaScriptJavaScript</P>
+        <P class="lead" id="JavaScript">JavaScript</P>
+        <P class="text-center" id="JavaScriptJavaScript">JavaScriptJavaScript</P>
     </div>
 
-    <div>
+    <div class="containar-fluid m-5">
         <input type="text" id="name1" name="name1" onclick="Input()">
         <input type="text" id="name2" name="name2" onclick="Input()">
     </div>
 
     <div>
-        <img id="img1" src="java1.jpg" alt="img1">
-        <img id="img2" src="java2.jpg" alt="img2">
+        <img class="rounded"id="img1" src="java1.jpg" alt="img1">
+        <img class="rounded"id="img2" src="java2.jpg" alt="img2">
     </div>
 
     <div>
@@ -39,8 +40,5 @@
     </div>
 
     <script src="./taskDOM.js"></script>
-    
-        
 </body>
-
 </html>
